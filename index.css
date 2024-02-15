@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    background: #e9c2ff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 350px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 12px;
+    position: relative;
+}
+
+.card--header{
+    background: linear-gradient(to right, rgb(91, 231, 91), rgb(255, 148, 241));
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    width: 150px;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    height: 40px;
+    position: absolute;
+    top: -28px;
+    left: 100px;
+}
+.card--content{
+    padding: 10px;
+    margin-top: 20px;
+}
+.card--content input{
+    width: 100%;
+    height: 35px;
+    margin-top: 10px;
+    background: #ffbbff;
+    border: none;
+    outline: none;
+    padding-left: 15px;
+}
+
+.card--content p{
+    padding: 20px;
+}
+.card--actions{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+    padding: 5px;
+}
+.card--actions button{
+    width: 100px;
+    height: 35px;
+    background: linear-gradient(to right, rgb(91, 231, 91), rgb(255, 148, 241));
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transform: 0.8s;
+}
+.card--actions button:hover{
+    transform: scale(0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
